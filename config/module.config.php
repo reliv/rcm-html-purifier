@@ -18,11 +18,7 @@
  */
 
 return [
-    'service_manager' => [
-        'factories' => [
-            'RcmHtmlPurifier' => 'RcmHtmlPurifier\Factory\HtmlPurifierFactory',
-        ]
-    ],
+    'service_manager' => include __DIR__ . '/dependencies.php',
     'controller_plugins' => [
         'invokables' => [
             'rcmHtmlPurify' =>
