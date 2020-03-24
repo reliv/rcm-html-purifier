@@ -19,7 +19,6 @@
   ],
   "require": {
     "php": ">=5.4",
-    "zendframework/zendframework": "2.*",
     "ezyang/htmlpurifier": "v4.8.0"
   },
   "require-dev": {
